@@ -1,0 +1,23 @@
+{
+  "name": "tinymce-imgur",
+  "version": "1.0.0",
+  "description": "Tinymce plugin for uploading picture on Imgur",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tinymce",
+    "plugin",
+    "imgur",
+    "editor",
+    "images",
+    "wysiwyg",
+    "tinymce-imgur"
+  ],
+  "author": "Maxime Houdais-Morançais <houdais.m@gmail.com> (https://github.com/Maxhou00)",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^1.12.4"
+  }
+}
