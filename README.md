@@ -21,6 +21,19 @@ yarn add tinymce-imgur
 
 In your Tinymce init configuration :
 
+- Load tinymce-imgur on your page or import it
+
+```html
+<script src="/node_modules/tinymce-imgur/build/index.min.js"></script>
+```
+
+Or
+
+```javascript
+import tinymce from "tinymce/tinymce";
+import "tinymce-imgur";
+```
+
 - Add `tinymceImgur` path to the `external_plugins` option
 - Add `tinymceImgur_client_id` with your imgur's API id
 - Add `tinymceImgur` anywhere on your toolbar.
@@ -29,7 +42,7 @@ In your Tinymce init configuration :
 tinymce.init({
   selector: "textarea", // change this value according to your HTML
   external_plugins: {
-    tinymceImgur: "/node_modules/tinymce-imgur/src/index.js",
+    tinymceImgur: "/node_modules/tinymce-imgur/build/index.min.js",
   },
   tinymceImgur_client_id: "Your Imgur Api Client ID",
   toolbar: "tinymceImgur",
