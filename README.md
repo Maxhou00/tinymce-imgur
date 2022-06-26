@@ -24,7 +24,7 @@ In your Tinymce init configuration :
 - Load tinymce-imgur on your page or import it
 
 ```html
-<script src="/node_modules/tinymce-imgur/build/index.min.js"></script>
+<script src="/node_modules/tinymce-imgur/build/tinymce_imgur.min.js"></script>
 ```
 
 Or
@@ -42,7 +42,7 @@ import "tinymce-imgur";
 tinymce.init({
   selector: "textarea", // change this value according to your HTML
   external_plugins: {
-    tinymceImgur: "/node_modules/tinymce-imgur/build/index.min.js",
+    tinymceImgur: "/node_modules/tinymce-imgur/build/tinymce_imgur.min.js",
   },
   tinymceImgur_client_id: "Your Imgur Api Client ID",
   toolbar: "tinymceImgur",
